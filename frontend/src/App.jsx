@@ -4,7 +4,6 @@ import Login from './Components/Login';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from './Components/Dashboard';
 import Home from './Components/Home';
-import Employee from './Components/Employee';
 import Menu from './Components/Menu';
 import Profile from './Components/Profile';
 import AddMenu from './Components/AddMenu';
@@ -47,7 +46,6 @@ function App() {
           }
         >
           <Route path='' element={<Home />} />
-          <Route path='employee' element={<Employee />} />
           <Route path='Menu' element={<Menu />} />
           <Route path='profile' element={<Profile />} />
           <Route path='AddMenu' element={<AddMenu />} />
